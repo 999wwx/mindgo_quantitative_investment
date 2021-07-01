@@ -1,2 +1,2 @@
-# mindgo_quantitative_investment
-This is a quantitative investment strategy on mindgo platform
+# mindgo平台_量化投资策略
+本项目使用**基于决策树的adaboost算法**对**沪深300股票**进行股票筛选，筛选出预测30天后收益率最高的30只股票（收益率为正）作为30天内的股票池，再使用**GFTD择时算法**对股票进行模拟交易，最后使用**与金字塔持仓结合的ATR棘轮法**对持仓股票进行止损止盈操作。
